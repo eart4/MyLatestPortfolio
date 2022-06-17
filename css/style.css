@@ -291,6 +291,8 @@ a{
 
 
 
+
+
 @media (max-width:550px){
    
     .container{
@@ -302,7 +304,11 @@ a{
 
     .header__second-title{
         width: 100%;
+        
+    }
 
+    .contacts__link-img{
+        scale: 100;
     }
 
     .layout{
@@ -312,6 +318,8 @@ a{
     }
 
 }
+
+
 
     @media (max-width:430px){
         .layout:hover{
@@ -363,14 +371,32 @@ a{
         }
     }
 
-@media (max-width:300px){
-    .container{
-        max-width: 260px;
+
+    @media (max-width:300px){
+        .container{
+            max-width: 260px;
+        }
+        .layout{
+            width: 245px;
     }
-    .layout{
-        width: 245px;
-}
-}
+    .header__second-title{
+        line-height: 18px;
+    }
+    
+
+    }
+
+
+    @media (max-height:600px){
+        .header__second-title{
+            width: 70%;
+            
+        }
+    }
+  
+
+
+
 
     
 
