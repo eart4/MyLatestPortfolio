@@ -363,6 +363,17 @@ a{
         }
     }
 
+@media (max-width:300px){
+    .container{
+        max-width: 260px;
+    }
+    .layout{
+        width: 245px;
+}
+}
+
+    
+
 
 
 
