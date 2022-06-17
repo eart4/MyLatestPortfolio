@@ -362,9 +362,5 @@ a{
 
 
 
-@media (max-height:667px){
-    .container{
-        max-width: 400px
-    }
-}
+
 
