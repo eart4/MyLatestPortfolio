@@ -192,6 +192,15 @@ a{
 }
 
 
+.contacts__link-img:hover{
+    transform: scale(1.5,1.5);
+}
+
+
+.contacts__link-img{
+    transition:  all .5s;
+}
+
 
 .coontacts__link{
     padding-left: 3px;
