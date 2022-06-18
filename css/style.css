@@ -293,6 +293,12 @@ a{
     
 }
 
+.telephone{
+       margin-bottom: 1px;
+    width: 33px;
+    height: 27px;
+}
+
 .footer__contacts{
     display: block;
 
