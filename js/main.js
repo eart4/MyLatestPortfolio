@@ -1,4 +1,5 @@
 
+
 function darkmode() {
     const body = document.body
     const wasDarkmode =  localStorage.getItem('darkmode') == 'true'
@@ -9,3 +10,9 @@ function darkmode() {
 }
 
 document.querySelector('.theme').addEventListener('click', darkmode)
+
+function onload() {
+    document.body.classList.toggle('dark-mode', localStorage.getItem('darkmode') == 'true')
+}
+
+    document.addEventListener('DOMContentLoaded', onload)
