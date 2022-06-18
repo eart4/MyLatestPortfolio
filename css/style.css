@@ -5,33 +5,39 @@
 }
 
 body{
-    color: #373737;
-    background-color: white;
+    color: #1f1f1f;
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
-    transition: all .4s ease;
+    transition: background .4s
+    
 }
 
+
+
 .dark-mode{
-    color: white;
-    background-color: #373737;
+    color: #fff;
+    background-color: #1f1f1f;
     font-family: 'Roboto', sans-serif;
     background-repeat: no-repeat;
     
 }
 
 .dark-mode .title{
-    background-color: #373737;
+    background-color: #1f1f1f;
     color: #fff;
+    
 }
 
 .dark-mode .aboutme__item{
-    background-color: #373737;
+    background-color: #1f1f1f;
+    
 }
 
 .dark-mode .layout{
     color: #fff;
     border: #fff solid ;
+    
 }
 
 .dark-mode .footer{
@@ -41,7 +47,7 @@ body{
 
 .dark-mode .theme{
     background-color: #fff;
-    color: #373737;
+    color: #1f1f1f;
 }
 
 
@@ -58,7 +64,7 @@ body{
 
 
 .title{
-    color: black;
+    color: #1f1f1f;
     font-size: 45px;
     text-transform: uppercase;
     font-weight: 400;
@@ -66,14 +72,16 @@ body{
     width: 100%;
     margin: 0 auto;
     background-color: #fff;
-    padding: 40px 40px 30px 40px;
-    transition: all .4s ease;
+    padding: 25px 40px 25px 40px;
+    transition: all .4s ;
 }
+
+
 
 
 a{
     text-decoration: none;
-    color: black;
+    color: #1f1f1f;
 }
 
 
@@ -93,7 +101,7 @@ a{
     
     border: none;
     
-    background-color: #373737;
+    background-color: #1f1f1f;
     color: #fff;
     transition: all .4s;
     
@@ -143,10 +151,10 @@ a{
 .aboutme__title{
     
     width: 100%;
-    padding: 3vh 3vh 1vh 7vh;
     
+    color: #1f1f1f;
     border-radius: 3px 0px 0px 0px;
-
+    transition: all .4s ;
 }
 
 .aboutme__item{
@@ -155,8 +163,8 @@ a{
     
     margin: 0 auto;
     background-color: #fff;
-    padding: 25px 40px;
-    transition: all .4s ease;
+    padding: 0px 40px;
+    transition: all .4s ;
     
     
 }
@@ -167,24 +175,30 @@ a{
     width: 100%;
     line-height: 23px;
     margin-top: -70px;
+    
 }
 
 
 .aboutme__text-item{
     padding-top: 20px;
     list-style-type: none;
+    
 }
 
 .layouts{
     width: 1005px;
-    padding: 40px 40px 5px 40px;
+    padding: 0px 40px 5px 40px;
     margin: 0 auto;
+    transition: all .4s;
+    color: #1f1f1f;
+    background-color: #fff;
+    transition: all .4s;
 }
 
 .layout{
     display: inline-block;
-    margin-top: 70px;
-    padding: 0px 40px 5px 40px;
+    
+    
     margin-bottom: 70px;
     width: 450px;
     border: 2px solid rgb(63, 25, 114);
@@ -192,6 +206,7 @@ a{
     transition: all 0.4s ;
     cursor: pointer;
     border-radius: 3px;
+    
     
     
     
@@ -217,7 +232,7 @@ a{
 }
 .layout__title{
     font-size: 28px;
-    margin-bottom: 10px;
+    
     padding-left: 7px;
 }
 
@@ -247,7 +262,7 @@ a{
 .contacts__link-img{
     z-index: 100;
     padding-left: 5px;
-    transition:  all .5s;
+    transition:  all .4s;
 }
 
 .contacts__link-img:hover{
@@ -256,7 +271,7 @@ a{
 
 
 .contacts__link-img{
-    transition:  all .5s;
+    transition:  all .4;
 }
 
 
@@ -463,22 +478,6 @@ a{
         }
     }
   
-
-
-
-
-
-
-
-    
-
-
-
-
-
-  
-
-
 
 
 
