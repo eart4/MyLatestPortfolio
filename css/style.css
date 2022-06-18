@@ -423,7 +423,9 @@ a{
         }
         
         .aboutme__text{
-            font-size:12px ; 
+            font-size:12px ;  
+            margin-top: -60px;
+        }
         }
 
         .layout{
