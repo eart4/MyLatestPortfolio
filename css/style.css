@@ -212,7 +212,7 @@ a{
 .layouts__items{
     justify-content: space-between;
     display: flex;
-    flex-wrap: wrap;
+     flex-wrap: wrap;
 }
 
 
